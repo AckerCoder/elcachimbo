@@ -1,0 +1,44 @@
+.cover-generator {
+  .content {
+    display: flex;
+    height: 85vh;
+    justify-content: space-around;
+    align-items: center;
+    .text-field {
+      margin-top: 0.75em;
+      margin-bottom: 0.75em;
+    }
+    .general-data {
+      display: flex;
+      flex-direction: column;
+      .button {
+        margin-top: 1em;
+      }
+    }
+    .students-data {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 30em;
+      .button {
+        width: 15em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+      .text-field-student {
+        height: 2.5em;
+        width: 20em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        border-radius: 0.25em;
+        border-color: #c4c4c4;
+      }
+    }
+    .select-options {
+      display: flex;
+      .text-field-options {
+        width: 15em;
+      }
+    }
+  }
+}

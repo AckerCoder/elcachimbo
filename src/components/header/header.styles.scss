@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  .sign-buttons {
+    display: flex;
+    width: 20em;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    .sign-in-button {
+      color: white;
+      width: 8em;
+      height: 3em;
+    }
+    .sign-up-button {
+      border-color: white;
+      color: white;
+      width: 8em;
+      height: 3em;
+    }
+  }
+}

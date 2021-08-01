@@ -1,0 +1,19 @@
+.product {
+  display: flex;
+  justify-content: space-around;
+  .card {
+    width: 15em;
+    height: 15em;
+    .clickable {
+      width: 100%;
+      height: 100%;
+    }
+    .title {
+      font-family: "Lato";
+      font-weight: 600;
+    }
+    .description {
+      font-size: 10pt;
+    }
+  }
+}
